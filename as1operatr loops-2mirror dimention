@@ -1,0 +1,6 @@
+word = input("enter a word:")
+reversed_word =""
+for char in reversed(word):
+    reversed_word += char 
+    print("reversed word:",reversed_word)
+    
